@@ -1,0 +1,34 @@
+current directory: /home/home/ror/routes_controller_exercise/ruby/2.3.0/gems/json-1.7.3/ext/json/ext/generator
+/usr/bin/ruby2.3 -r ./siteconf20170316-15436-76loxz.rb extconf.rb
+creating Makefile
+
+current directory: /home/home/ror/routes_controller_exercise/ruby/2.3.0/gems/json-1.7.3/ext/json/ext/generator
+make "DESTDIR=" clean
+
+current directory: /home/home/ror/routes_controller_exercise/ruby/2.3.0/gems/json-1.7.3/ext/json/ext/generator
+make "DESTDIR="
+compiling generator.c
+In file included from generator.c:1:0:
+../fbuffer/fbuffer.h: In function ‘fbuffer_to_s’:
+../fbuffer/fbuffer.h:158:47: error: macro "rb_str_new" requires 2 arguments, but only 1 given
+     VALUE result = rb_str_new(FBUFFER_PAIR(fb));
+                                               ^
+../fbuffer/fbuffer.h:158:20: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+     VALUE result = rb_str_new(FBUFFER_PAIR(fb));
+                    ^
+In file included from generator.c:2:0:
+generator.c: In function ‘cState_aref’:
+generator.h:96:27: warning: variable ‘state’ set but not used [-Wunused-but-set-variable]
+     JSON_Generator_State *state;              \
+                           ^
+generator.c:632:5: note: in expansion of macro ‘GET_STATE’
+     GET_STATE(self);
+     ^
+generator.c: In function ‘isArrayOrObject’:
+generator.c:867:22: warning: suggest parentheses around ‘&&’ within ‘||’ [-Wparentheses]
+     return *p == '[' && *q == ']' || *p == '{' && *q == '}';
+                      ^
+Makefile:239: recipe for target 'generator.o' failed
+make: *** [generator.o] Error 1
+
+make failed, exit code 2

@@ -1,4 +1,5 @@
-require 'ffaker'
+require 'faker'
+#require 'ffaker'
 
 
 namespace :fake do
@@ -16,7 +17,7 @@ namespace :fake do
     end
 
     def create_product(user)
-      name   = Faker::Product.product_name
+      name  = Faker::Commerce.product_name
       price  = rand(1000) + 1
       puts "    - Creating Product: #{name}: $#{price} sold by #{user.name}"
       user.products.create(:name => name, :price => price)

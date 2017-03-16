@@ -1,0 +1,16 @@
+current directory: /home/home/ror/routes_controller_exercise/ruby/2.3.0/gems/eventmachine-1.2.3/ext/fastfilereader
+/usr/bin/ruby2.3 -r ./siteconf20170316-15891-1tvd0x6.rb extconf.rb
+creating Makefile
+
+current directory: /home/home/ror/routes_controller_exercise/ruby/2.3.0/gems/eventmachine-1.2.3/ext/fastfilereader
+make "DESTDIR=" clean
+
+current directory: /home/home/ror/routes_controller_exercise/ruby/2.3.0/gems/eventmachine-1.2.3/ext/fastfilereader
+make "DESTDIR="
+compiling mapper.cpp
+compiling rubymain.cpp
+linking shared-object fastfilereaderext.so
+
+current directory: /home/home/ror/routes_controller_exercise/ruby/2.3.0/gems/eventmachine-1.2.3/ext/fastfilereader
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 fastfilereaderext.so ./.gem.20170316-15891-184kp1k

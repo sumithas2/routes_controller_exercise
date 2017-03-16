@@ -1,0 +1,13 @@
+current directory: /home/home/ror/routes_controller_exercise/ruby/2.3.0/gems/json-1.8.6/ext/json
+/usr/bin/ruby2.3 -r ./siteconf20170316-15891-15z2cbe.rb extconf.rb
+creating Makefile
+
+current directory: /home/home/ror/routes_controller_exercise/ruby/2.3.0/gems/json-1.8.6/ext/json
+make "DESTDIR=" clean
+
+current directory: /home/home/ror/routes_controller_exercise/ruby/2.3.0/gems/json-1.8.6/ext/json
+make "DESTDIR="
+make: Nothing to be done for 'all'.
+
+current directory: /home/home/ror/routes_controller_exercise/ruby/2.3.0/gems/json-1.8.6/ext/json
+make "DESTDIR=" install

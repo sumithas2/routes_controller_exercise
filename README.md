@@ -210,6 +210,22 @@ You should also notice a new line or two that we didn't see before, what is it (
 Why do you think this line is there?
 
 
+---
+HTTP verb used in this request: GET
+URL:/users
+Controller Name: UsersController
+Controller Action: index
+View File Name:users/index.html.erb
+Layout File Name: layouts/application
+Response code of the request: 200
+
+
+User Load (0.9ms)  SELECT "users".* FROM "users" 
+
+Inside user_controller.rb index action interacts with database and gets all the Users.
+
+In Users view -> index.html.erb lists all the users.
+
 
 Save and commit your answers.
 
