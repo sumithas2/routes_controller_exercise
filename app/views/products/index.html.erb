@@ -1,6 +1,6 @@
 
 <% total_products = Product.count %>
-
+<% lots_of_products = Product.includes(:user).all %>
 
 <h3>Product List </h3>
 <p>Total Number of Products: <%= total_products %></p>
@@ -10,7 +10,7 @@
 	<th>Cost</th>
 	<th>Seller Name</th>
 </tr>
-<% @products.each do | item | %>
+<% lots_of_products.each do | item | %>
 <tr>
 	<td><%= item.name%></td>
 	<td>$ <%= item.price %></td>
